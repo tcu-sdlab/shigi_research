@@ -1,3 +1,4 @@
+#使用には pandas,matplotlib,seabornのインストールが必須.全てpipで可能
 import pandas as pd
 from matplotlib import pyplot as plt
 import seaborn as sns
