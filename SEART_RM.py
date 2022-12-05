@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import json,os
 
 def make_list(repo_json):
