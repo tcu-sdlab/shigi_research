@@ -12,7 +12,7 @@ def make_list(repo_json):
     json_open.close()
     return name_list
 
-def categorize_ref(name_list):
+def RMiner(name_list):
 
     target = '/'
 
@@ -31,4 +31,4 @@ def categorize_ref(name_list):
 
 repo_json='results.json'
 name_list=make_list(repo_json)
-categorize_ref(name_list)
+RMiner(name_list)
