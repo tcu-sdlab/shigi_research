@@ -27,7 +27,6 @@ def RMiner(name_list):
         os.system('./RefactoringMiner -a %s -json result/%s.json'% (reponame, filename))
 
         os.system('rm -R %s'%reponame)
-    return 0
 
 repo_json='results.json'
 name_list=make_list(repo_json)
